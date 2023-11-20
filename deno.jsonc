@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "$std/": "https://deno.land/std@0.207.0/",
+    "json5": "https://esm.sh/json5@2.2.3"
+  }
+}
