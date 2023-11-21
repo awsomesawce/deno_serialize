@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "ph": "eza -la --git",
+    "lf": "lf"
   },
   "imports": {
     "$std/": "https://deno.land/std@0.207.0/",
