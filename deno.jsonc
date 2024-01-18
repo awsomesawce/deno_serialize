@@ -1,11 +1,15 @@
 {
-  "tasks": {
-    "dev": "deno run --watch main.ts",
-    "ph": "eza -la --git",
-    "lf": "lf"
-  },
-  "imports": {
-    "$std/": "https://deno.land/std@0.207.0/",
-    "json5": "https://esm.sh/json5@2.2.3"
-  }
+    "tasks": {
+        "dev": "deno run --watch main.ts",
+        "ph": "eza -la --git",
+        "ex": "deno run ./experiment/openT.ts"
+    },
+    "imports": {
+        "$std/": "https://deno.land/std@0.207.0/",
+        "json5": "https://esm.sh/json5@2.2.3",
+        "asciidoc": "https://esm.sh/asciidoctor@3.0.2",
+        "adoc": "https://deno.land/x/asciidoctor/mod.ts",
+        "rxjs": "https://deno.land/x/rxjs@v1.0.2/mod.ts",
+        "lodash": "https://esm.sh/lodash@4.17.21"
+    }
 }

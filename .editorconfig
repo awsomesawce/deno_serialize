@@ -16,7 +16,8 @@ indent_size = 2
 trim_trailing_whitespace = true
 charset = utf-8
 
-[*.sh]
+# (almost) all shell script files.
+[*.{sh,zsh,fish,nu}]
 indent_size = 4
 end_of_line = lf
 
