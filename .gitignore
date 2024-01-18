@@ -26,4 +26,7 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/deno
 
-.ipynb_checkpoints
+.ipynb_checkpoints/
+test_data/
+_ignore/
+ignore/
